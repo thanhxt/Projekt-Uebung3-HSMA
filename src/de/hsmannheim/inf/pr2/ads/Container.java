@@ -8,4 +8,5 @@ public interface Container<E> extends Iterable<E> {
     }
     void clear();
     String toListString();
+    boolean containsIter(E e);
 }
