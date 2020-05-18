@@ -14,7 +14,11 @@ public class SearchTreeNode<E extends Comparable<E>> extends TreeNode<E> {
         super(value, left, right);
     }
 
-
+    /**
+     * aufg 6
+     * wenn wurzel keinen inhalt hat
+     * @return true
+     */
     public boolean isEmpty(){
         if(this.root == null)
             return true;
@@ -156,13 +160,19 @@ public class SearchTreeNode<E extends Comparable<E>> extends TreeNode<E> {
     }
  */
 
+    /**
+     * aufg 8
+     * @return
+     */
     public int height(){
+        //wenn kein inhalt
         if(root == null)
             return 0;
 
         var node = root;
         int leftHeight = 1;
 
+        //iterativ geht nach links durch
         while(node.left != null){
             leftHeight++;
             node = (SearchTreeNode<E>) node.left;
@@ -171,11 +181,13 @@ public class SearchTreeNode<E extends Comparable<E>> extends TreeNode<E> {
        node = root;
         int rightHeight = 1;
 
+        //iterativ geht nach rechts durch
         while(node.right != null){
             rightHeight++;
             node = (SearchTreeNode<E>) node.right;
         }
 
+        //gibt größten wert zurück
         return Math.max(leftHeight, rightHeight);
     }
 /*
