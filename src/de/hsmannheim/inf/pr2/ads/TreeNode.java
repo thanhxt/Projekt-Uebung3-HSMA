@@ -61,8 +61,12 @@ public class TreeNode<E> implements Container2<E> {
 
         queue.add(node);
         while(!queue.isEmpty()){
+            // nimmt das letzte Element der Liste
             node = queue.pollLast();
 
+            // if linker zweig existiert bei beidem
+            //      if inhalt gleich
+            //          check true, node;onode geht nach links, liste wird neues Element hinzugefügt
             if(node.getLeft() != null && onode.getLeft() != null) {
                 if (node.value == onode.value){
                     check = true;
@@ -153,6 +157,17 @@ public class TreeNode<E> implements Container2<E> {
         //(3)
         return false;
     }
+
+    @Override
+    public int height() {
+        return 0;
+    }
+
+    @Override
+    public boolean contains(E e) {
+        return false;
+    }
+
     @Override
     public Iterator<E> iterator() {
         return null;

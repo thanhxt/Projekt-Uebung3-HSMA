@@ -6,4 +6,6 @@ public interface Container2<E> extends Iterable<E> {
     public TreeNode<E> getRight();
     public boolean equalStructure(TreeNode<E> otherNode);
 
+    int height();
+    boolean contains(E e);
 }

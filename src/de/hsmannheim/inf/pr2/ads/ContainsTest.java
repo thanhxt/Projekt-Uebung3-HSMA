@@ -6,6 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContainsTest {
 
+    /**
+     * aufg 3
+     * Test class for contains() method
+     */
     @Test
     void contains() {
         var s = new List<String>();

@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c90fb7-4d29-4e68-8616-0b7b0332b8c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/Container2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ClearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainsTestTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/EqualStructureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/HeightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/IsEmptyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/SearchTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/Container2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/Container2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/ContainsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/ContainsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU3/de/hsmannheim/inf/pr2/ads/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/Container2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/Container2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainsIterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,6 +52,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../de" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -48,18 +62,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeNode">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.List" />
-      <module name="PU3" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.TreeNode" />
+  <component name="RunManager" selected="JUnit.HeightTest">
+    <configuration name="SearchTreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.SearchTreeNode" />
       <module name="PU3" />
       <extension name="coverage">
         <pattern>
@@ -71,53 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PU3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ContainsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsTest.testContains1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PU3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ContainsTest" />
-      <option name="METHOD_NAME" value="testContains1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PU3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.containsIter" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="ContainsIterTest.containsIter" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="PU3" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -127,8 +86,87 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
-      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ListTest" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ContainsIterTest" />
       <option name="METHOD_NAME" value="containsIter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainsTestTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PU3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.ContainsTestTree" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualStructureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PU3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.EqualStructureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualStructureTest.equalstruct3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PU3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.EqualStructureTest" />
+      <option name="METHOD_NAME" value="equalstruct3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PU3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.HeightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsEmptyTest.isEmpty" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="PU3" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hsmannheim.inf.pr2.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.hsmannheim.inf.pr2.ads" />
+      <option name="MAIN_CLASS_NAME" value="de.hsmannheim.inf.pr2.ads.IsEmptyTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -137,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeNode" />
-        <item itemvalue="JUnit.ContainsTest" />
-        <item itemvalue="JUnit.ContainsTest.testContains1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.HeightTest" />
+        <item itemvalue="JUnit.EqualStructureTest" />
+        <item itemvalue="JUnit.EqualStructureTest.equalstruct3" />
+        <item itemvalue="JUnit.ContainsTestTree" />
+        <item itemvalue="Application.SearchTreeNode" />
       </list>
     </recent_temporary>
   </component>
@@ -159,10 +197,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="176" width="816" height="864" key="#Intentions" timestamp="1589641177163">
+    <state x="1032" y="86" width="816" height="954" key="#Intentions" timestamp="1589725173729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="176" width="816" height="864" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1589641177163" />
+    <state x="1032" y="86" width="816" height="954" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1589725173729" />
+    <state x="886" y="173" key="#IsEmptyTest.isEmpty" timestamp="1589726023831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="886" y="173" key="#IsEmptyTest.isEmpty/0.0.1920.1040@0.0.1920.1040" timestamp="1589726023831" />
     <state x="993" y="181" key="#ListTest" timestamp="1589224738060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,50 +217,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589117795542" />
-    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1589641276223">
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1589749902352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589641276223" />
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589749902352" />
     <state x="1078" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589114616850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1078" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589114616850" />
-    <state width="914" height="144" key="GridCell.Tab.0.bottom" timestamp="1589643510989">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589743131469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589643510989" />
-    <state width="914" height="144" key="GridCell.Tab.0.center" timestamp="1589643510989">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589743131469" />
+    <state width="960" height="235" key="GridCell.Tab.0.bottom" timestamp="1589764123059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="144" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589643510989" />
-    <state width="914" height="144" key="GridCell.Tab.0.left" timestamp="1589643510989">
+    <state width="960" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589764123059" />
+    <state width="960" height="235" key="GridCell.Tab.0.center" timestamp="1589764123059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="144" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589643510989" />
-    <state width="914" height="144" key="GridCell.Tab.0.right" timestamp="1589643510989">
+    <state width="960" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589764123059" />
+    <state width="960" height="235" key="GridCell.Tab.0.left" timestamp="1589764123059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="144" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589643510989" />
-    <state width="914" height="71" key="GridCell.Tab.1.bottom" timestamp="1589641389700">
+    <state width="960" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589764123059" />
+    <state width="960" height="235" key="GridCell.Tab.0.right" timestamp="1589764123059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="71" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589641389700" />
-    <state width="914" height="71" key="GridCell.Tab.1.center" timestamp="1589641389700">
+    <state width="960" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589764123059" />
+    <state width="960" height="305" key="GridCell.Tab.1.bottom" timestamp="1589762975373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="71" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589641389700" />
-    <state width="914" height="71" key="GridCell.Tab.1.left" timestamp="1589641389700">
+    <state width="960" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589762975373" />
+    <state width="960" height="305" key="GridCell.Tab.1.center" timestamp="1589762975373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="71" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589641389700" />
-    <state width="914" height="71" key="GridCell.Tab.1.right" timestamp="1589641389700">
+    <state width="960" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589762975373" />
+    <state width="960" height="305" key="GridCell.Tab.1.left" timestamp="1589762975373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="71" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589641389700" />
-    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589634240334">
+    <state width="960" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589762975373" />
+    <state width="960" height="305" key="GridCell.Tab.1.right" timestamp="1589762975373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589634240334" />
+    <state width="960" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589762975373" />
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589720860028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589720860028" />
     <state x="1144" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589224438885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,9 +273,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1174" y="210" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589233963390" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589642588268">
+    <state x="1063" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1589757115840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589642588268" />
+    <state x="1063" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589757115840" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589760185834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589760185834" />
   </component>
 </project>

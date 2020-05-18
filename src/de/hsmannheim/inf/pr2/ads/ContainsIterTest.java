@@ -4,10 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ListTest {
+class ContainsIterTest {
 
     /**
      * Test class for ConainsIter() method
+     * Iterativ nicht nötig
      */
     @Test
     void containsIter() {
