@@ -2,7 +2,7 @@ package de.hsmannheim.inf.pr2.ads;
 
 import java.util.Iterator;
 
-public class List<E> implements Container<E> {
+public class List<E> implements ContainerList<E> {
     @Override
     public Iterator<E> iterator() {
         return null;

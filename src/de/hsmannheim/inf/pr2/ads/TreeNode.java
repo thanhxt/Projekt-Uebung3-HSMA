@@ -1,11 +1,9 @@
 package de.hsmannheim.inf.pr2.ads;
 
-import com.sun.source.tree.Tree;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class TreeNode<E> implements Container2<E> {
+public class TreeNode<E> implements ContainerTreeNode<E> {
     protected E value;
     protected TreeNode<E> left;
     protected TreeNode<E> right;
@@ -166,6 +164,16 @@ public class TreeNode<E> implements Container2<E> {
     @Override
     public boolean contains(E e) {
         return false;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public void clear() {
+
     }
 
     @Override

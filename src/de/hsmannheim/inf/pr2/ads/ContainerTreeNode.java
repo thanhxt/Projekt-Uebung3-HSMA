@@ -1,6 +1,6 @@
 package de.hsmannheim.inf.pr2.ads;
 
-public interface Container2<E> extends Iterable<E> {
+public interface ContainerTreeNode<E> extends Iterable<E> {
     public E getValue();
     public TreeNode<E> getLeft();
     public TreeNode<E> getRight();
@@ -8,4 +8,6 @@ public interface Container2<E> extends Iterable<E> {
 
     int height();
     boolean contains(E e);
+    boolean isEmpty();
+    void clear();
 }

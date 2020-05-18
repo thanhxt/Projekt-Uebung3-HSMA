@@ -138,7 +138,7 @@ public class SearchTreeNode<E extends Comparable<E>> extends TreeNode<E> {
      * RICHTIG
      * löscht alle Elemente aus dem Suchbaum
      */
-    void clear(){
+    public void clear(){
         if(root != null)
             root = null;
     }
