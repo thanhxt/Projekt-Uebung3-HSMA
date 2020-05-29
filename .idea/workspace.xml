@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54c90fb7-4d29-4e68-8616-0b7b0332b8c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/Container2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/ContainerTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/SearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsmannheim/inf/pr2/ads/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="thanhxt &lt;thanhtran_xuan@hotmail.de&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1biUfbinjDg315Iatyqd4RYAY5S" />
@@ -42,7 +42,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../de" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -215,10 +215,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1078" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589114616850" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589743131469">
+    <state x="461" y="116" key="CommitChangelistDialog2" timestamp="1590760535243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589743131469" />
+    <state x="461" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590760535243" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590080521870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590080521870" />
     <state width="960" height="305" key="GridCell.Tab.0.bottom" timestamp="1589764220536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -251,10 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589764220536" />
-    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589764309218">
+    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1590080595535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589764309218" />
+    <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590080595535" />
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590080507852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590080507852" />
     <state x="1144" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589224438885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -318,6 +318,7 @@ public boolean contains(E e, SearchTreeNode <E> node){
         System.out.println(s.height());
         //System.out.println(s.contains(6,s.root));
         System.out.println(s.contains(7));
+        //Test
 
     }
 
